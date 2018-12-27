@@ -1,0 +1,16 @@
+.navbar {   
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+    font-family: sans-serif;
+    background-color: #46ACC2;
+    color: white;
+  }
+.navbar-link{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 8px;
+   
+}

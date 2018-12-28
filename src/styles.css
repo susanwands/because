@@ -2,8 +2,22 @@
 
 
 @font-face {
-    font-family: Ti-Regular;
-    src: url(assets/font/TitilliumWeb-Regular.ttf) format('truetype');
+    font-family: OpenSans-Regular;
+    src: url(assets/font/OpenSans-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;   
+  }
+
+  @font-face {
+    font-family: OpenSans-Bold;
+    src: url(assets/font/OpenSans-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;   
+  }
+
+  @font-face {
+    font-family: OpenSans-SemiBold;
+    src: url(assets/font/OpenSans-SemiBold.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;   
   }
@@ -11,5 +25,19 @@
   body{
     padding: 0;
     margin:0;
-    font-family: Ti-Regular;
+    font-family: OpenSans-Regular;
+    background-color: #f3f6f5;
+}
+
+.main-content{
+  padding:20px;
+  text-align: center;
+}
+
+.pink{
+  color:#9e005d
+}
+
+.green{
+  color:#94d17b;
 }

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-correlations',
   templateUrl: './correlations.component.html',
-  styleUrls: ['./correlations.component.css']
+  styleUrls: ['./correlations.component.scss']
 })
 export class CorrelationsComponent implements OnInit {
 

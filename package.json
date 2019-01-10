@@ -24,6 +24,7 @@
     "@angular/router": "~7.1.0",
     "@ng-bootstrap/ng-bootstrap": "^4.0.1",
     "bootstrap-css-only": "^4.2.1",
+    "bootstrap-scss-only": "^4.1.3",
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
     "rxjs": "~6.3.3",

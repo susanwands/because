@@ -1,0 +1,20 @@
+.csr-page{
+    width:80%;
+    margin: 20px auto;
+}
+
+.circle-panel{
+    border: 10px solid #9e005d;
+    border-radius:50%;
+    width: 200px;
+    height: 200px;
+    padding:20px;
+    margin: 20px auto;
+}
+
+.circle-label{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+}

@@ -10,7 +10,14 @@ import { StoriesComponent } from './stories/stories.component';
 import { CampaignsComponent } from './campaigns/campaigns.component';
 import { ImpactComponent } from './impact/impact.component';
 import { ProfileComponent } from './profile/profile.component';
-import {MatButtonModule, MatCheckboxModule, MatSlideToggleModule} from '@angular/material';
+import { MatButtonModule, MatCheckboxModule, MatSlideToggleModule } from '@angular/material';
+import { MarketingComponent } from './marketing/marketing.component';
+import { PillarsComponent } from './pillars/pillars.component';
+import { InitiativesComponent } from './initiatives/initiatives.component';
+import { EngagementsComponent } from './engagements/engagements.component';
+import { GoalsComponent } from './goals/goals.component';
+import { CorrelationsComponent } from './correlations/correlations.component';
+import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +27,13 @@ import {MatButtonModule, MatCheckboxModule, MatSlideToggleModule} from '@angular
     StoriesComponent,
     CampaignsComponent,
     ImpactComponent,
-    ProfileComponent
+    ProfileComponent,
+    MarketingComponent,
+    PillarsComponent,
+    InitiativesComponent,
+    EngagementsComponent,
+    GoalsComponent,
+    CorrelationsComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +41,8 @@ import {MatButtonModule, MatCheckboxModule, MatSlideToggleModule} from '@angular
     BrowserAnimationsModule,
     MatButtonModule,
     MatCheckboxModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    NgbCollapseModule
   ],
   exports: [
     MatButtonModule,

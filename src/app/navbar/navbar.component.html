@@ -1,32 +1,34 @@
-<div class="navbar">
-  <div class="navbar-link brand">
-    <a [routerLink]="['home']">
-      <img src="../../assets/images/because-official-logo_4.png">
-    </a>
-   
-  </div>
-  <div class="navbar-link" >
-      <a [routerLink]="['strategy']" [routerLinkActive]="'isActive'">
-          CSR
-      </a>
-   
-  </div>
-  <div class="navbar-link" >
-      <a [routerLink]="['stories']" [routerLinkActive]="'isActive'">
-          MARKETING
-        </a>
-    
-  </div> 
-  <div class="navbar-link" >
-      <a [routerLink]="['impact']" [routerLinkActive]="'isActive'">
-          IMPACT
-        </a>
-    
-  </div>
-  <div class="navbar-link" >
-      <a [routerLink]="['profile']" [routerLinkActive]="'isActive'">
-          PROFILE
-        </a>
-   
-  </div>
-</div>
+<nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
+  
+        <a class="navbar-brand" [routerLink]="['home']"> <img src="../../assets/images/because-official-logo_4.png"></a>
+        <button class="navbar-toggler d-lg-none" type="button" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="becauseNav" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="becauseNav" [ngbCollapse]="isCollapsed">
+          <ul class="navbar-nav">
+                <li class="nav-item">
+                        <a class="nav-link" [routerLink]="['strategy']" [routerLinkActive]="'isActive'">
+                                CSR
+                            </a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" [routerLink]="['stories']" [routerLinkActive]="'isActive'">
+                                MARKETING
+                              </a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" [routerLink]="['impact']" [routerLinkActive]="'isActive'">
+                                IMPACT
+                              </a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" [routerLink]="['profile']" [routerLinkActive]="'isActive'">
+                                PROFILE
+                              </a>
+                  </li>
+           
+          </ul>         
+        </div>
+      </nav>
+

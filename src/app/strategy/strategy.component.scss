@@ -1,18 +1,22 @@
 .csr-page{
     .circle-panel{
-        border: 10px solid #9e005d;
+        border: 12px solid #9e005d;
         border-radius:50%;
         width: 200px;
         height: 200px;
         padding:20px;
         margin: 20px auto;
+        display: flex;
+        justify-content:center;
+        align-content:center;
+        flex-direction:column;
     }
     
-    .circle-label{
-        text-align: center;
-        width: 100px;
-        height: 100px;
-        margin: 50px auto;
+    .circle-label{        
+        font-variant: small-caps;
+        font-family: OpenSans-SemiBold;
+        font-size: 22px;
+        text-align: center;       
     }
 }
 

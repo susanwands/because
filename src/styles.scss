@@ -31,18 +31,36 @@
     color:white;
 }
 
+input.form-control, input{
 
+  border-radius: 0;
+}
+
+.table{
+  margin-top:20px;
+  
+  th{
+    border-top:none;
+  }
+}
 
 .pink{
   color:#9e005d;
 }
-
+.bread-nav{
+  margin:10px 0 10px 20px;
+  a, a:hover{
+    color:#9e005d;
+  }
+}
 .section-header{
   font-variant: small-caps;
   background-color: #eeeeee;
   background-image: linear-gradient(to right, #eeeeee, black);
   color:#222222;
   margin-top: 80px;
+  //margin-left:40px;
+  //margin-right:40px;
 
   .header{
     padding:20px 0 0 20px;
@@ -59,6 +77,8 @@
   background-color: white;
   color:black;
   padding:40px 0;
+  //margin-left:25px;
+  //margin-right:25px;
 }
 
 button {
@@ -70,10 +90,15 @@ button {
 .submit-button{
   color:white;
   background-color: #9e005d;
+  min-width: 100px;
 }
 
 .default-button{
 
+}
+
+.right-btn{
+  float: right;
 }
 /********* Circle Pie ***********/
 $circle-diameter: 150px;

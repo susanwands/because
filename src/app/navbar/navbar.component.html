@@ -2,7 +2,9 @@
   
         <a class="navbar-brand" [routerLink]="['home']"> <img src="../../assets/images/because-light.png"></a>
         <button class="navbar-toggler d-lg-none" type="button" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="becauseNav" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+            <i class="material-icons">
+                reorder
+                </i>
         </button>
       
         <div class="collapse navbar-collapse" id="becauseNav" [ngbCollapse]="isCollapsed">

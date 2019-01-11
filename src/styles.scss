@@ -31,10 +31,7 @@
     color:white;
 }
 
-.main-content{
-  padding:20px;
-  text-align: center;
-}
+
 
 .pink{
   color:#9e005d;
@@ -45,7 +42,7 @@
   background-color: #eeeeee;
   background-image: linear-gradient(to right, #eeeeee, black);
   color:#222222;
-  margin-top: 60px;
+  margin-top: 80px;
 
   .header{
     padding:20px 0 0 20px;
@@ -64,6 +61,20 @@
   padding:40px 0;
 }
 
+button {
+  padding:10px 15px;
+  border-radius: none;
+  border:none;
+  margin-top:10px;
+}
+.submit-button{
+  color:white;
+  background-color: #9e005d;
+}
+
+.default-button{
+
+}
 /********* Circle Pie ***********/
 $circle-diameter: 150px;
 $circle-border-width: 10px;

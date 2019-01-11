@@ -1,0 +1,32 @@
+.intro-logo{
+    margin:30px auto;
+    text-align: center;
+}
+.intro-slogan{
+    margin:30px auto;
+    text-align: center;
+    width:60%;
+    font-size: 20px;
+}
+
+.pic-background-row{
+    background-image: url('../../assets/images/team-gray2.jpg');
+    background-color: #cccccc; 
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;   
+    
+    .login-box{
+        max-width:500px;
+        margin:100px auto;
+        background: rgba(46,46,46,.5);
+
+        form{
+            width:90%;
+            margin:10px auto;
+            padding:40px;
+        }
+    }
+
+}
